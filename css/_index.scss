@@ -3,27 +3,25 @@ h1{
     text-align: center;
     padding: 30px;
     margin: 0px;
-    color: $color8;
+    color: $color9;
+    font-size: 48px;
     text-shadow: 0 0 25px #000;
     background-image: url(../multi/fondo.jpg);
-    border: 5px solid $color2;
+    border: 5px solid $color1;
+    text-shadow: 0 0 20px $color1
 }
-h1 span{
-    color: darken($color8, 10%);
-    text-shadow: 0 0 20px black;
-}
+
 h2{
     text-align: center;
     background-color: $color2;
     padding: 10px;
     margin: 0px;
-    border:3px solid $color3;
-    color: $color5;
-    text-shadow: 0 0 5px #000;
+    color: $color10;
+    text-shadow: 0 0 20px #ffffff;
 }
 
 .prodfondo{
-    background-color: $color4;
+    background-color: $color2;
 }
 .enlace{
     text-decoration:none;
@@ -43,7 +41,7 @@ h2{
 
     .proddest{
         margin: 10px;
-        border: 5px solid black;
+        border: 3px solid $color1;
         height: 300px;
         width: 300px;
         background-size: cover;

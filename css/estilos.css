@@ -28,15 +28,12 @@ h1 {
   text-align: center;
   padding: 30px;
   margin: 0px;
-  color: rgb(104, 4, 87);
+  color: rgb(3, 87, 3);
+  font-size: 48px;
   text-shadow: 0 0 25px #000;
   background-image: url(../multi/fondo.jpg);
-  border: 5px solid #00765E;
-}
-
-h1 span {
-  color: #37022e;
-  text-shadow: 0 0 20px black;
+  border: 5px solid #FF7B00;
+  text-shadow: 0 0 20px #FF7B00;
 }
 
 h2 {
@@ -44,13 +41,12 @@ h2 {
   background-color: #00765E;
   padding: 10px;
   margin: 0px;
-  border: 3px solid #248B00;
-  color: yellow;
-  text-shadow: 0 0 5px #000;
+  color: rgb(214, 1, 118);
+  text-shadow: 0 0 20px #ffffff;
 }
 
 .prodfondo {
-  background-color: #C08A00;
+  background-color: #00765E;
 }
 
 .enlace, .tipoevento a, .producto a, .centrado .proddest a {
@@ -72,7 +68,7 @@ h2 {
 }
 .centrado .proddest {
   margin: 10px;
-  border: 5px solid black;
+  border: 3px solid #FF7B00;
   height: 300px;
   width: 300px;
   background-size: cover;
@@ -92,8 +88,9 @@ h2 {
 }
 
 article {
-  margin-top: 25px;
-  border: 2px solid #000000;
+  margin: 0px;
+  padding: 0;
+  border: none;
   text-align: center;
 }
 
@@ -143,10 +140,9 @@ p {
 }
 
 .categ {
-  background-color: rgb(211, 105, 67);
+  background-color: rgb(22, 129, 40);
   padding: 3px;
   margin: 0px;
-  border: 2px solid rgb(139, 28, 28);
 }
 .categ h3 {
   color: yellow;
@@ -172,8 +168,7 @@ p {
 
 .producto {
   box-sizing: border-box;
-  background-color: red;
-  border: 4px solid red;
+  background-color: yellow;
   background-position: center;
   background-size: 90%;
   transition: all 0.9s;
@@ -309,8 +304,6 @@ p {
   box-sizing: border-box;
   border: 0px;
   padding: 10px;
-  margin-top: 10px;
-  border-radius: 10px;
   background-color: #00765E;
   background-position: center;
 }
@@ -325,10 +318,8 @@ p {
 }
 
 .formulario {
-  border: 2px solid red;
   background-color: #00765E;
   padding: 10px;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,7 +327,7 @@ p {
 .formulario .text {
   text-align: center;
   margin-bottom: 10px;
-  color: red;
+  color: black;
   font-size: 20px;
   font-weight: bold;
 }
@@ -348,7 +339,7 @@ p {
   justify-content: flex-end;
 }
 .formulario .botonder .boton {
-  color: red;
+  color: black;
   font-size: 18px;
   font-weight: bold;
   background-color: #FF7B00;
@@ -361,33 +352,31 @@ p {
 .mapa {
   border: 0px;
   padding: 10px;
-  margin: 5px 0px;
-  border-radius: 10px;
   justify-content: center;
   background-position: center;
   text-align: center;
-  background-color: #00765E;
+  background-color: #FF7B00;
 }
 .mapa .mapat {
-  color: #FF7B00;
+  color: rgb(104, 4, 87);
   font-size: 20px;
   font-weight: bolder;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 5px white;
 }
 
 footer {
-  background-color: grey;
+  background-color: black;
   text-align: center;
 }
 footer .copy {
-  color: #C08A00;
+  color: white;
   font-size: 16px;
   font-weight: 600;
   text-align: center;
   text-shadow: 0 0 15px #000;
 }
 footer a {
-  color: #248B00;
+  color: pink;
   font-size: 25px;
   letter-spacing: 15px;
   text-decoration: none;

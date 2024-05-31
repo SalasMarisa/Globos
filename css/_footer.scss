@@ -1,14 +1,14 @@
 //footer
 footer{
-    background-color: $color7;
+    background-color: black;
     text-align: center;
     .copy{
-        @include font($color4, 16px, 600);
+        @include font(white, 16px, 600);
         text-align: center;
         text-shadow: 0 0 15px #000;
     }
     a{
-        color:$color3;
+        color:$color7;
         font-size: 25px;
         letter-spacing: 15px;
         text-decoration: none;
